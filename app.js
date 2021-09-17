@@ -11,16 +11,12 @@ if (runnerAge > 18 && registeredEarly) {
 if (runnerAge > 18 && registeredEarly) {
     console.log(`Racer ${raceNumber}, you will start off at 9:30`);
 
+} else if (runnerAge > 18 && !registeredEarly) {
+    console.log(`Racer ${raceNumber}, you will start off at 11:00`);
+
+
     switch (randomNumber) {
-        // case 1:
-        //   console.log('It is certain')
-        //   break
-        // case 2:
-        //   console.log('It is decidedly so')
-        //   break
-        case 3:
-          console.log('Reply hazy try again')
-          break
+        
         case 4:
           console.log('Cannot predict now')
           break
