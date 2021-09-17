@@ -2,15 +2,17 @@ let raceNumber = Math.floor(Math.random() * 1000);
 
 const registeredEarly = true;
 
-// const isTaskCompleted = false;
- 
-// if (isTaskCompleted) {
-//   console.log('Task completed');
-// } else {
-//   console.log('Task incomplete');
-// }
+//agregamos edad de corredor
+const runnerAge = 22;
 
-// true && true;      // true
-// 1 > 2 && 2 > 1;    // false
-// true && false;     // false
-// 4 === 4 && 3 > 1;  // true
+let lateToWork = true;
+let oppositeValue = !lateToWork;
+ 
+console.log(oppositeValue); 
+// Prints: false
+
+// let lateToWork = true;
+// let oppositeValue = !lateToWork;
+ 
+// console.log(oppositeValue); 
+// // Prints: false
