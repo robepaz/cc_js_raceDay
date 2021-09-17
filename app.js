@@ -16,8 +16,11 @@ if (runnerAge > 18 && registeredEarly) {
 } else if (runnerAge > 18 && !registeredEarly) {
     console.log(`Racer ${raceNumber}, you will start off at 11:00`);
 
-// menores cualquier edad    
-} else {
+// menores cualquier edad    menos 18
+} else if (runnerAge < 18) {
     console.log(`Racer ${raceNumber}, you will start off at 12:30`);
-  }
 
+// de 18    
+  } else if (runnerAge === 18) {
+    console.log('please go to the reg desk');
+    }
